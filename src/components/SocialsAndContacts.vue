@@ -14,6 +14,7 @@
 h3 {
   font-size: 30px;
   color:white;
+  margin-top: 10%;
 }
 
 

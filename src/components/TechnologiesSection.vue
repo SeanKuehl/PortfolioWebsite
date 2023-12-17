@@ -63,7 +63,7 @@ h3 {
   display:grid;
   grid-template-columns: repeat(3, 300px [col-start]);
   grid-template-rows: repeat(2, 150px [row-start]);
-  margin-left: 5%;
+  
   margin-bottom: 10%;
   border-style: solid;
   border-color: Chartreuse;

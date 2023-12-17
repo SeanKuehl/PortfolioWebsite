@@ -67,7 +67,7 @@
   display:grid;
   grid-template-columns: repeat(4, 300px [col-start]);
   grid-template-rows: repeat(3, 150px [row-start]);
-  margin-left: 5%;
+  margin-left: 0;
   border-style: solid;
   border-color: Chartreuse;
   background-color: LightSteelBlue;
