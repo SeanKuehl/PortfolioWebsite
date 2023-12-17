@@ -53,7 +53,7 @@
 .frameworksIcon {
   display: flex;
   flex-direction: column;
-  margin-left:60%;
+  margin-left:80%;
   
   margin-top: 10%;
 }
