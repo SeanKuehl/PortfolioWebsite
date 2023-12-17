@@ -159,29 +159,30 @@ import TheWelcome from './components/TheWelcome.vue';
 
 
 <div align="center">
-  <a href="https://github.com/crownengine/crown/commits/master/?author=SeanKuehl">
-<h2>Contributed to Crown game engine</h2>
-</a>
+  <a href="https://github.com/crownengine/crown/commits/master/?author=SeanKuehl"> <h2>Contributed to Crown game engine</h2> </a>
 
 </div>
 
 <div align="center">
-  <a href="https://github.com/drwhut/tabletop-club/commits/master/?author=SeanKuehl">
-<h2>Contributed to Tabletop-club</h2>
-</a>
+  <a href="https://github.com/drwhut/tabletop-club/commits/master/?author=SeanKuehl"> <h2>Contributed to Tabletop-club</h2> </a>
+
+
 
 </div>
 
 
+<h3> Socials and Contacts </h3>
 
 
 
+<div align="center">
+  <h2> Email: seanliamkuehl@gmail.com </h2>
+  <h2> Phone: 519-722-3874 </h2>
+
+</div>
 
 
-
-
-
-
+<h2 style="margin-top:20%;"> &#169; Sean Kuehl 2023</h2>
   
   </div>
 
@@ -275,8 +276,13 @@ h3 {
   color:white;
 }
 
+
+h2 {
+  color: lightgreen;
+}
+
 p {
-  font-size: 20px;
+  font-size: 30px;
   color: lightgreen;
   margin-left:5%;
   margin-bottom:10%;
