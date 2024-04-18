@@ -3,59 +3,59 @@
 </script>
 
 <template>
-  <h3> Languages </h3>
+  <h2> Languages </h2>
   
   
   
   <div class="languagesGrid">
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/css-icon.webp" width="50" height="50" title="CSS"/>
+    <img src="../assets/languages/css-icon.webp" max-width="1vw" max-height="1vh" title="CSS"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/html-icon.webp" width="50" height="50" title="HTML"/>
+    <img src="../assets/languages/html-icon.webp" max-width="1vw" max-height="1vh" title="HTML"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/c-program-icon.webp" width="50" height="50" title="C"/>
+    <img src="../assets/languages/c-program-icon.webp" max-width="1vw" max-height="1vh" title="C"/>
   
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/c-plus-plus-programming-language-icon.webp" width="50" height="50" title="C++"/>
+    <img src="../assets/languages/c-plus-plus-programming-language-icon.webp" max-width="1vw" max-height="1vh" title="C++"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/c-sharp-programming-language-icon.webp" width="50" height="50" title="C#"/>
+    <img src="../assets/languages/c-sharp-programming-language-icon.webp" max-width="1vw" max-height="1vh" title="C#"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/java-programming-language-icon.webp" width="50" height="50" title="Java"/>
+    <img src="../assets/languages/java-programming-language-icon.webp" max-width="1vw" max-height="1vh" title="Java"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/javascript-programming-language-icon.webp" width="50" height="50" title="Javascript"/>
+    <img src="../assets/languages/javascript-programming-language-icon.webp" max-width="1vw" max-height="1vh" title="Javascript"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/python-programming-language-icon.webp" width="50" height="50" title="Python"/>
+    <img src="../assets/languages/python-programming-language-icon.webp" max-width="1vw" max-height="1vh" title="Python"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/mysql-icon.webp" width="50" height="50" title="Mysql"/>
+    <img src="../assets/languages/mysql-icon.webp" max-width="1vw" max-height="1vh" title="Mysql"/>
     
     </div>
 
     <div class="languagesIcon" align="center">
-    <img src="../assets/languages/godot-game-engine-icon.webp" width="50" height="50" title="Gdscript"/>
+    <img src="../assets/languages/godot-game-engine-icon.webp" max-width="1vw" max-height="1vh" title="Gdscript"/>
     
     </div>
 
@@ -64,10 +64,11 @@
 
 <style scoped>
 .languagesGrid {
+  
   display:grid;
-  grid-template-columns: repeat(4, 300px [col-start]);
-  grid-template-rows: repeat(3, 150px [row-start]);
-  margin-left: 0;
+  grid-template-columns: repeat(4, 25% [col-start]);
+  grid-template-rows: repeat(3, 30% [row-start]);
+ 
   border-style: solid;
   border-color: Chartreuse;
   background-color: LightSteelBlue;
@@ -78,14 +79,14 @@
   
   display: flex;
   flex-direction: column;
-  margin-left:35%;
+  
   
   margin-top: 10%;
   
 }
 
-h3 {
-  font-size: 30px;
+h2 {
+  font-size: 2em;
   color:white;
 }
 

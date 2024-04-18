@@ -3,32 +3,32 @@
 </script>
 
 <template>
-  <h3> Frameworks </h3>
+  <h2> Frameworks </h2>
 
 <div class="frameworksGrid">
 
 <div class="frameworksIcon" align="center">
-<img src="../assets/frameworks/django-logo-icon.webp" width="100" height="100" title="Django"/>
+<img src="../assets/frameworks/django-logo-icon.webp" max-width="100%" max-height="100%" title="Django"/>
 
 </div>
 
 <div class="frameworksIcon" align="center">
-<img src="../assets/frameworks/express-js-icon.webp" width="100" height="100" title="Express JS"/>
+<img src="../assets/frameworks/express-js-icon.webp" max-width="100%" max-height="100%" title="Express JS"/>
 
 </div>
 
 <div class="frameworksIcon" align="center">
-<img src="../assets/frameworks/react-js-icon.webp" width="100" height="100" title="React JS"/>
+<img src="../assets/frameworks/react-js-icon.webp" max-width="100%" max-height="100%" title="React JS"/>
 
 </div>
 
 <div class="frameworksIcon" align="center">
-<img src="../assets/frameworks/react-native-app-icon.webp" width="100" height="100" title="React Native"/>
+<img src="../assets/frameworks/react-native-app-icon.webp" max-width="100%" max-height="100%" title="React Native"/>
 
 </div>
 
 <div class="frameworksIcon" align="center">
-<img src="../assets/frameworks/vue-js-icon.webp" width="100" height="100" title="Vue JS"/>
+<img src="../assets/frameworks/vue-js-icon.webp" max-width="100%" max-height="100%" title="Vue JS"/>
 
 </div>
 
@@ -41,8 +41,8 @@
 <style scoped>
 .frameworksGrid {
   display:grid;
-  grid-template-columns: repeat(3, 300px [col-start]);
-  grid-template-rows: repeat(2, 150px [row-start]);
+  grid-template-columns: repeat(4, 25% [col-start]);
+  grid-template-rows: repeat(2, 30% [row-start]);
  
   margin-bottom: 10%;
   border-style: solid;
@@ -53,13 +53,13 @@
 .frameworksIcon {
   display: flex;
   flex-direction: column;
-  margin-left:80%;
+  
   
   margin-top: 10%;
 }
 
-h3 {
-  font-size: 30px;
+h2 {
+  font-size: 2em;
   color:white;
 }
 

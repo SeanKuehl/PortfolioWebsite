@@ -8,11 +8,14 @@ import SocialsAndContacts from './components/SocialsAndContacts.vue';
 
 <template>
   <body>
-  <div class="topToBottom">
-  <h1> Sean Kuehl </h1>
+  <div>
+    <div align="center">
+      <h1> Sean Kuehl </h1>
+    </div>
+  
 
   <div align="center">
-  <p> Hi, my name is Sean and I'm a Software Developer interested in Web Development and exploring new technologies. </p>
+  <h3> Hi, my name is Sean and I'm a Software Developer interested in Web Development and exploring new technologies. </h3>
   </div>
   
   <div align="center">
@@ -37,30 +40,27 @@ import SocialsAndContacts from './components/SocialsAndContacts.vue';
 
 <style scoped>
 
-.topToBottom {
-  display: flex;
-  flex-direction: column;
-}
+
 
 h1 {
-	font-size: 80px;
-  margin-top: 5%;
-  margin-left: 30%;
-  margin-bottom: 10%;
+  font-size: 3em;
 	color: Aquamarine;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1em;
   color:white;
+  margin-bottom:10%;
 }
 
 h2 {
+  font-size: 2em;
   color: lightgreen;
+  
 }
 
 p {
-  font-size: 30px;
+  
   color: lightgreen;
   margin-bottom:10%;
 }

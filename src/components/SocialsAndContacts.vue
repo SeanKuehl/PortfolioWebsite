@@ -1,24 +1,26 @@
 <template>
- <h3> Socials and Contacts </h3>
+ <h2> Socials and Contacts </h2>
 
 
 
 <div align="center">
-  <h2> Email: seanliamkuehl@gmail.com </h2>
-  <h2> Phone: 519-722-3874 </h2>
+  <h3> Email: seanliamkuehl@gmail.com </h3>
+  <h3> Phone: 519-722-3874 </h3>
 
 </div>
 </template>
 
 <style scoped>
 h3 {
-  font-size: 30px;
+  font-size: 1em;
   color:white;
-  margin-top: 10%;
+  
 }
 
 
 h2 {
+  font-size: 2em;
   color: lightgreen;
+  margin-top: 10%;
 }
 </style>
